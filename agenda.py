@@ -19,6 +19,13 @@ def actualizar_contacto():
 
 def ver_contacto():
     """Función para ver contacto"""
+    print('≠' * 8 + 'Contacto' + '≠' * 8)
+    nombre = input('Nombre del contacto: ')
+    try:
+        print('%s: %s' % (nombre, agenda[nombre]))
+    except KeyError:
+        'Ese contacto no existe'
+    print('≠' * 23)
 
 
 def ver_todos():
