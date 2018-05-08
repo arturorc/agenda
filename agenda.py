@@ -22,6 +22,7 @@ def remover_contacto():
 
 def actualizar_contacto():
     """Función para actualizar contacto"""
+    print("Eliminar contacto")
 
 
 def ver_contacto():
