@@ -20,8 +20,9 @@ def remover_contacto():
         print('Contacto %s eliminado' % nombre)
 
 
-def actualizar_contacto():
+def actualizar_contacto(contacto):
     """Función para actualizar contacto"""
+    print("Actualizar contacto %s" % contacto)
 
 
 def ver_contacto():
